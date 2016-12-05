@@ -130,4 +130,13 @@ footer .icons li{
     .frase h1{
         font-size: 30px;
     }
+    header .navbar-toggle{
+        background: rgba(222, 214, 214, 0.95);
+    }
+    header h5{
+        color: #f05f40;
+    }
+    header .navbar-inverse{
+        background: rgba(255, 255, 255, 0.94);
+    }
 }
