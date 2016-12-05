@@ -1,0 +1,132 @@
+/*-------------GENERAL-------------*/
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+hr{
+    width: 35px;
+}
+/*-------------HEADER-------------*/
+
+header{
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+header .navbar-inverse{
+    background: rgba(56, 56, 56, 0.39);
+    border-bottom: 3px solid rgba(240, 95, 64, 0.37);
+    
+}
+header .navbar-inverse li:hover{
+    background: rgba(240, 95, 64, 0.87);
+}
+header h5{
+    color: #fff;
+    font-weight: bold;
+}
+.frase hr{
+   border: 1px solid #f05f40;
+}
+header .frase{
+    margin: 200px 0;
+}
+.frase h1{
+    font-weight: bold;
+}
+header .coral{
+    background: #f05f40;
+}
+header .texto{
+    padding: 25px 0 50px;
+}
+header .frase button{
+    background: #f05f40;
+    font-weight: bold;
+    border: 3px solid #fff 0.5;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding: 5px 10px;
+}
+/*-------------SERVICIOS-------------*/
+.servicios h4{
+    margin-top: 50px;
+}
+.servicios hr{
+    border: 1px solid #f05f40;
+}
+.icon-container{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 80px;
+    color: #f05f40;
+}
+.servicios h5{
+    margin-top: 25px;
+}   
+.servicios h6{
+    font-size: 14px;
+    margin: 20px 0;
+}
+.servicios .icon{
+   margin-bottom: 50px; 
+}    
+/*-------------SECTION IMAGENES-------------*/    
+.oscuro{
+    background: #222222;
+}   
+.oscuro p{
+    color:#fff;
+    margin: 40px;
+    font-size: 18px;
+}
+.oscuro button{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background: #fff;
+    padding: 4px 15px;
+}
+.sinpadding [class*="col-"]{
+    padding: 0;
+}
+/*-------------CONTACTO------------*/      
+.contacto i{
+    font-size: 25px;
+    color: #000;
+}
+.contacto p{
+    color: #000;
+}
+.contacto .email a{
+    color: #f05f40;
+}
+.contacto{
+    margin-bottom: 20px;
+}
+/*-------------FOOTER------------*/  
+footer{
+    background: rgba(240, 95, 64, 0.87);
+}
+footer .icons li{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.container li i{
+    color: #f05f40;
+    border-radius: 100px;
+    background: #000;
+    padding: 6px;
+}
+@media screen and (max-width:768px){
+    .frase h1{
+        font-size: 30px;
+    }
+}
